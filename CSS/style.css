@@ -99,17 +99,20 @@ a.active::after {
     border-radius: 150px;
     border: 6px solid var(--violet-doux);
 }
+
 .hero h1 {
     color: var(--violet-doux);
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1.2rem;
 }
+
 .hero p {
     color: var(--grisfonce);
     font-size: 1.3rem;
     margin-bottom: 1.2rem;
 }
+
 .hero a {
     text-decoration: none;
     display: inline-block;
@@ -124,7 +127,35 @@ a.active::after {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .hero a:hover {
-    background-color: var(--grisfonce);
-    transform: translateY(-3);
+    background-color: rgb(9, 2, 59);
+    transform: translateY(-20px);
+
+}
+.apropos {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+}
+section h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+section h2::after {
+     content: '';
+     display: block;
+     width: 60px;
+     height: 4px;
+     background-color:  var(--violet-doux);
+     margin: 1.2rem auto;
+     border-radius: 2px;
+
+}
+.apropos p {
+    margin-bottom: 2rem;
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
 
 }
