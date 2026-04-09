@@ -11,7 +11,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title><link rel="stylesheet" href="CSS/style.css">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,9 +33,44 @@
             </ul>
         </nav>
     </header>
-     <main>
-      <h1>Contactez-nous</h1>
-     </main>
+      <main>
+        <section class="contact-header">
+        <h1>Mes contacts</h1>
+    </section>
+
+    <section class="contact-container">
+        <div class="contact-info">
+            
+            <p>Je suis réside à <strong>Lubumbashi</strong> et disponible pour discuter de vos projets.</p>
+            
+            <div class="contact-details">
+                <p><i class="fa-solid fa-phone"></i> +243 853026278</p>
+                <div class="apps-buttons">
+                    <a href="https://wa.me/243853026278" target="_blank" class="btn-app whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://t.me/+243853026278" target="_blank" class="btn-app telegram">
+                        <i class="fa-brands fa-telegram"></i> Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="+243..." required>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+      </main>
     <footer>
         <p>@ 2026 John-Felly. Tous droits réservés.</p>
         <p>
